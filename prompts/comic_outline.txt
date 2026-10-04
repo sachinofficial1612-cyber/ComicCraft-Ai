@@ -1,0 +1,17 @@
+Generate a structured comic outline for a {panel_count}-panel comic based on story concept:
+
+Title: {title}
+Concept: {story_concept}
+Character Bible: {character_bible}
+Setting: {setting}
+Tone: {tone}
+
+Requirements for each panel:
+- Panel number (1 to {panel_count})
+- Short panel title
+- Scene description (environment, camera angle, lighting, background)
+- Characters present & actions/emotions
+- Narration text (concise narrative overlay)
+- Dialogue lines (speaker, text, emotion, bubble_type: speech/thought/shout/whisper)
+- Sound effect (optional, e.g. WHOOSH, BAM)
+- Detailed image prompt draft

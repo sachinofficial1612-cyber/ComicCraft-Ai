@@ -1,0 +1,14 @@
+Construct a comprehensive character bible for:
+
+Character Name: {name}
+Description: {description}
+Setting: {setting}
+Art Style: {art_style}
+
+Extract exact visual specifications:
+- Species / Body structure
+- Face / Eyes / Hair or Fur color and style
+- Clothing & Accessories
+- Signature Color Palette
+- Distinctive visual marks
+- Expressive personality traits

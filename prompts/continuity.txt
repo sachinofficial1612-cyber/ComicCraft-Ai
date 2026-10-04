@@ -1,0 +1,13 @@
+Continuity Summary for Panel {panel_number}:
+
+Previous Panel ({prev_panel_num}):
+Summary: {prev_panel_summary}
+Character States: {prev_character_states}
+
+Current Panel Objective:
+{current_objective}
+
+Next Panel Intention:
+{next_panel_intention}
+
+Ensure character visual positioning and scene transition flow naturally from previous panel.

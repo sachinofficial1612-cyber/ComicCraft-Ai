@@ -1,0 +1,15 @@
+Generate narration, dialogue, and sound effects for Panel {panel_number} of "{title}".
+
+Scene Context:
+{scene_description}
+
+Characters present:
+{characters_present}
+
+Previous Panel Action:
+{prev_panel_context}
+
+Rules:
+- Dialogue must be concise (max 15-20 words per speech bubble) to fit properly inside speech bubbles.
+- Do not duplicate narration text in dialogue.
+- Provide character emotion for voice/expression guidance.

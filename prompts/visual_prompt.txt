@@ -1,0 +1,20 @@
+Comic Panel Image Generation Prompt:
+
+Art Style: {art_style}
+Color Palette & Lighting: {lighting_and_palette}
+Camera Angle & Framing: {camera_angle}
+Environment & Background: {background}
+
+Character Specifications:
+{character_bible_summary}
+
+Panel Action & Emotion:
+{action_and_emotion}
+
+Continuity Context:
+{continuity_context}
+
+CRITICAL RULES:
+1. DO NOT render text, dialogue, speech bubbles, or captions in the generated image artwork.
+2. Maintain exact character clothing, species, color, and face attributes across panels.
+3. High quality comic art, crisp lines, clean composition.

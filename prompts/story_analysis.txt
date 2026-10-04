@@ -1,0 +1,15 @@
+Analyze the provided story concept and output a detailed breakdown.
+
+Story Idea: {original_prompt}
+Main Character: {character_name}
+Setting: {setting}
+Tone: {tone}
+Art Style: {art_style}
+Target Panel Count: {panel_count}
+
+Extract and define:
+1. Concise title for the comic.
+2. Genre and narrative arc (beginning, middle climax, ending).
+3. Primary and supporting characters with visual and personality descriptions.
+4. Primary setting and mood details.
+5. Overall thematic and artistic direction.

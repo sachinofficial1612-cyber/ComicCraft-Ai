@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-950 text-slate-100 font-sans selection:bg-sky-500 selection:text-white;
+  }
+}
+
+.comic-title {
+  font-family: 'Bangers', Impact, 'Comic Sans MS', sans-serif;
+  letter-spacing: 0.05em;
+}
+
+/* Speech bubble custom tail styling */
+.speech-bubble {
+  position: relative;
+  background: white;
+  border: 3px solid black;
+  border-radius: 16px;
+  color: black;
+}
+
+.speech-bubble::after {
+  content: '';
+  position: absolute;
+  bottom: -14px;
+  left: 30px;
+  border-width: 14px 12px 0;
+  border-style: solid;
+  border-color: white transparent;
+  display: block;
+  width: 0;
+}
+
+.speech-bubble::before {
+  content: '';
+  position: absolute;
+  bottom: -18px;
+  left: 28px;
+  border-width: 16px 14px 0;
+  border-style: solid;
+  border-color: black transparent;
+  display: block;
+  width: 0;
+}
+
+.thought-bubble {
+  position: relative;
+  background: white;
+  border: 3px solid black;
+  border-radius: 50%;
+  color: black;
+}
+
+.shout-bubble {
+  position: relative;
+  background: #fef2f2;
+  border: 4px solid #ef4444;
+  color: #991b1b;
+}
+
+.narration-box {
+  background: #fef08a;
+  border: 3px solid black;
+  color: black;
+  font-weight: 600;
+}
